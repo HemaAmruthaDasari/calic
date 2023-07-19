@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+    <style>
+        #c{
+            text-align: center;
+            border:4px solid grey;
+            background-color:rgb(236, 229, 229)
+
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="c">
+        <center>  <h1> <font color="grey" face="arial">My Simple Calculator</font></h1></center>
+        <h3>Enter First Number</h3>
+        <input type="number" id="value1">
+        <h3>Enter Second Number</h3>
+        <input type="number" id="value2">
+        <h3>OPERATIONS</h3>
+        <h3 id="op">select an operation</h3>
+        <p id="ans1">Here You Can See An Answer</p>
+        <button id="button1" onclick="add()">Addition</button>
+        <button id="button1" onclick="sub()">Substraction</button>
+        <button id="button1" onclick="mul()">Multiplication</button>
+        <button id="button1" onclick="div()">Division</button>
+        <button id="button1" onclick="mod()">Modulous</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
